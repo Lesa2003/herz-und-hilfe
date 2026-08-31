@@ -1,6 +1,6 @@
 media:
   input: src/images
-  output: /herz-und-hilfe/images
+  output: /images
 
 content:
   - name: home
