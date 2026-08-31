@@ -1,0 +1,89 @@
+media:
+  input: src/images
+  output: /herz-und-hilfe/images
+
+content:
+  - name: home
+    label: Startseite
+    type: file
+    path: src/index.md
+    fields:
+      - { name: title, label: "Seitentitel (Browser-Tab)", type: string }
+      - name: theme
+        label: Design
+        type: object
+        fields:
+          - name: preset
+            label: Farbschema
+            type: select
+            options:
+              values:
+                - { name: waldgruen, label: "🌲 Waldgrün (Standard)" }
+                - { name: ozeanblau, label: "🌊 Ozeanblau" }
+                - { name: terrakotta, label: "🧡 Terrakotta" }
+                - { name: lavendel, label: "💜 Lavendel" }
+          - name: wordmark_style
+            label: Logo-Schriftstil
+            type: select
+            options:
+              values:
+                - { name: serif, label: "Klassisch (Serif)" }
+                - { name: sans, label: "Modern (serifenlos)" }
+          - name: size
+            label: Textgröße
+            type: select
+            options:
+              values:
+                - { name: standard, label: Standard }
+                - { name: kompakt, label: Kompakt }
+                - { name: gross, label: Groß }
+      - { name: brand, label: Firmenname, type: string }
+      - { name: tagline, label: Slogan, type: string }
+      - { name: subtitle, label: Untertitel, type: string }
+      - { name: intro, label: Einleitungstext, type: rich-text }
+      - name: content_blocks
+        label: "Weitere Inhaltsabschnitte (frei gestaltbar)"
+        type: block
+        list: true
+        blockKey: type
+        blocks:
+          - name: text
+            label: Textabschnitt
+            fields:
+              - { name: heading, label: Überschrift, type: string, required: false }
+              - { name: body, label: Text, type: rich-text }
+          - name: image
+            label: Bild
+            fields:
+              - { name: src, label: Bild, type: image }
+              - { name: alt, label: Alt-Text, type: string }
+              - { name: caption, label: Bildunterschrift, type: string, required: false }
+      - name: service_categories
+        label: Leistungskategorien
+        type: object
+        list: true
+        fields:
+          - { name: icon, label: "Icon (Emoji)", type: string }
+          - { name: category_title, label: Titel, type: string }
+          - name: items
+            label: Punkte
+            type: string
+            list: true
+      - name: billing_box
+        label: Infobox Pflegekasse
+        type: object
+        fields:
+          - { name: box_title, label: Titel, type: string }
+          - { name: body, label: Text, type: rich-text }
+          - { name: note, label: Rechtlicher Hinweis, type: string }
+      - name: contact
+        label: Kontakt
+        type: object
+        fields:
+          - { name: owner, label: Inhaber, type: string }
+          - { name: hours, label: Erreichbarkeit, type: string }
+          - { name: phone, label: Telefon, type: string }
+          - { name: email, label: E-Mail, type: string }
+          - { name: address_line1, label: "Straße & Hausnummer", type: string }
+          - { name: address_line2, label: "PLZ & Ort", type: string }
+          - { name: service_area, label: Einsatzgebiet, type: string }
