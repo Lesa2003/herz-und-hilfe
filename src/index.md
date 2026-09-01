@@ -51,7 +51,7 @@ contact:
   owner: "Inhaber: Ahmad Alshehab"
   hours: "Erreichbarkeit: Mo–Fr 09–18 Uhr"
   phone: 0151 296 94786
-  email: ahmad.alshihab@web.de
+  email: herz-hilfe@outlook.de
   address_line1: Brüder-Grimm-Straße 17
   address_line2: 64291 Darmstadt
   service_area: Darmstadt & Umgebung bis ca. 15 km
