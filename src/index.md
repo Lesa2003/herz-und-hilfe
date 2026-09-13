@@ -12,20 +12,6 @@ intro: Ein selbstbestimmtes Leben in der eigenen Wohnung ist kostbar. Wir
   täglichen Wegen, damit Sie mehr Lebensqualität und Ihre Angehörigen Entlastung
   erhalten.
 service_categories:
-  - icon: 🏠
-    category_title: Haushalt & Besorgungen
-    items:
-      - Reinigung der Wohnräume
-      - Zubereitung von Mahlzeiten
-      - Einkaufsservice & Botengänge
-      - Ordnung & Alltagsorganisation
-  - icon: 🌳
-    category_title: Haus & Garten
-    items:
-      - Leichte Gartenarbeiten
-      - Kleine handwerkliche Hilfen
-      - Kehren & Außenbereichspflege
-      - Jahreszeitliche Vorbereitungen
   - icon: 🤝
     category_title: Begleitung & Freizeit
     items:
@@ -40,6 +26,20 @@ service_categories:
       - Sorglos bei Abwesenheit & Urlaub
       - Individuelle, flexible Zeitmodelle
       - Vertrauensvolle Bezugsperson
+  - icon: 🌳
+    category_title: Haus & Garten
+    items:
+      - Leichte Gartenarbeiten
+      - Kleine handwerkliche Hilfen
+      - Kehren & Außenbereichspflege
+      - Jahreszeitliche Vorbereitungen
+  - icon: 🏠
+    category_title: Haushalt & Besorgungen
+    items:
+      - Reinigung der Wohnräume
+      - Zubereitung von Mahlzeiten
+      - Einkaufsservice & Botengänge
+      - Ordnung & Alltagsorganisation
 billing_box:
   box_title: Abrechnung über die Pflegekasse (§ 45b SGB XI)
   body: "**Ab Pflegegrad 1** steht Ihnen monatlich der Entlastungsbetrag von
