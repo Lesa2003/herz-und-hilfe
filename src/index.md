@@ -16,7 +16,7 @@ service_categories:
     category_title: Begleitung & Freizeit
     items:
       - Begleitung zu Ärzten, Behörden
-      - Spaziergängen & Ausflügen
+      - Spaziergänge & Ausflüge
       - Gespräche & Gesellschaft
       - Unterstützung bei Hobbys
   - icon: 💚
